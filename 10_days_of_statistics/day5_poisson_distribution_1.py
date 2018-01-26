@@ -22,4 +22,5 @@ def poisson_distribution(k, lam):
 
 lam = 2.5
 k = 5
+
 print(round(poisson_distribution(k, lam), 3))
