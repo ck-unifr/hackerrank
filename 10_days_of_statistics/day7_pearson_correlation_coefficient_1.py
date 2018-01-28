@@ -6,10 +6,6 @@
 
 import math
 
-N = input()
-X = input()
-Y = input()
-
 def std(X, mean_X):
     X_new = [(x-mean_X)**2 for x in X]
 
@@ -31,6 +27,10 @@ def pearson_correlation(X, Y):
 
     return p
 
+
+N = input()
+X = input()
+Y = input()
 
 N = int(N)
 X = X.strip().split(' ')
